@@ -95,7 +95,7 @@ const w = ['./welcome2.png'];
 })
 });
 
-const devs = ["450711003324350485"]
+const devs = ["490076609215201282"]
 
 const adminprefix = "+";
 client.on('message', message => {
