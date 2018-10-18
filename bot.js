@@ -191,5 +191,7 @@ client.guilds.get(member.guild.id).channels.get(channel).send(`**Invited By** ${
     });
 });
 
-
+client.on('guildMemberAdd', (member) => {
+member.addRole(member.guild.roles.find('name', 'Lite'));
+});
 client.login(process.env.BOT_TOKEN);
