@@ -52,10 +52,6 @@ const w = ['./welcome2.png'];
                               ctx.fillStyle = "#FFFFFF";
                                 ctx.fillText(member.user.username, 277, 138);
 
-                                    ctx.font = '20px Arial Bold';
-                              ctx.fontSize = '15px';
-                              ctx.fillStyle = "#FFFFFF";
-                                ctx.fillText(`${hours}:${minutes}:${seconds} ${suffix}`, 314, 200);
                                                      var guild;
     while (!guild)
                         guild = member.guild
@@ -83,7 +79,7 @@ const w = ['./welcome2.png'];
                               let ava = new Avatar;
                               ava.src = buf;
                               ctx.beginPath();
-                 ctx.arc(120.8, 120.5, 112.3, 0, Math.PI*2, true);
+                 ctx.arc(120.8, 120.5, 115.3, 0, Math.PI*2, true);
                    ctx.closePath();
 
                                  ctx.clip();
